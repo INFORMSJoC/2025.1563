@@ -1,3 +1,5 @@
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
+
 # Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules
 
 This archive is distributed in association with the
@@ -6,17 +8,19 @@ under the [MIT License](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported in the paper
+
 **Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules**
+
 by Milad Hasanzadeh and Amin Kargarian.
 
 ## Cite
 
 To cite the contents of this repository, please cite both the paper and this
-repo, using their respective DOIs.
+repository using their respective DOIs.
 
 Paper DOI:
 
-https://doi.org/10.1287/ijoc.2025.1563
+To be added when assigned by INFORMS Journal on Computing.
 
 Code and data DOI:
 
