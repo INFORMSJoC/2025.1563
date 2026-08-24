@@ -1,82 +1,36 @@
 # Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules
 
-This repository contains the source code and data associated with the paper
+This archive is distributed in association with the
+[INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc)
+under the [MIT License](LICENSE).
 
-**Milad Hasanzadeh and Amin Kargarian**,  
-"Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules,"  
-*INFORMS Journal on Computing*.
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported in the paper
+**Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules**
+by Milad Hasanzadeh and Amin Kargarian.
 
 ## Cite
 
-The citation information for the final INFORMS Journal on Computing code and data repository will be added after the repository DOI is assigned.
+To cite the contents of this repository, please cite both the paper and this
+repo, using their respective DOIs.
 
-## Description
+Paper DOI:
 
-This repository contains the computational implementation used in the paper.
+https://doi.org/10.1287/ijoc.2025.1563
 
-The code implements distributed DC and AC optimal power flow using the
-Alternating Direction Method of Multipliers (ADMM), together with the proposed
-asymptotic, finite-time, and fixed-time update rules for the primal and dual
-variables.
+Code and data DOI:
 
-The numerical experiments compare the proposed update rules with classical
-ADMM on benchmark power-system test cases.
+https://doi.org/10.1287/ijoc.2025.1563.cd
 
-## Repository Structure
+Below is the BibTeX for citing this snapshot of the repository.
 
-The repository is organized as follows:
-
-- `src/`: source code used to run the distributed DC and AC OPF experiments.
-- `data/`: input data and test-system files required by the source code.
-- `AUTHORS`: author information.
-- `LICENSE`: software license.
-
-## Software Requirements
-
-The source code requires the software and packages used in the computational
-experiments.
-
-Please install the required dependencies before running the code.
-
-The exact software versions used in the paper are:
-
-- MATLAB
-- YALMIP
-- IPOPT
-
-## Data
-
-The `data/` directory contains the input files used in the computational
-experiments.
-
-The experiments consider the benchmark test systems reported in the paper,
-including:
-
-- 48-bus system
-- 72-bus system
-- 118-bus system
-- 2383wp-bus system
-- 2869pegase-bus system
-- 9241pegase-bus system
-- 24464goc-bus system
-
-
-## Source Code
-
-The `src/` directory contains the MATLAB source code used to reproduce the
-computational experiments reported in the paper.
-
-## Running the Code
-
-1. Install the required software and dependencies.
-
-2. Download or clone this repository.
-
-3. Open MATLAB.
-
-4. Set the repository directory as the MATLAB working directory.
-
-5. Add the source directory to the MATLAB path:
-
-   ```matlab
-   addpath(genpath('src'))
+```bibtex
+@misc{HasanzadehKargarian2026,
+  author =        {Milad Hasanzadeh and Amin Kargarian},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Alternating Direction Method of Multipliers-Based Distributed Optimal Power Flow with Fixed- and Finite-Time Update Rules},
+  year =          {2026},
+  doi =           {10.1287/ijoc.2025.1563.cd},
+  url =           {https://github.com/INFORMSJoC/2025.1563},
+  note =          {Available for download at https://github.com/INFORMSJoC/2025.1563},
+}
